@@ -8,6 +8,13 @@ document.addEventListener('keydown', event=>{
 })
 document.addEventListener('click', event=>{
     const type=event.target.dataset.type
+    console.log(type)
+    if(type=='rand'){
+        randomColors()
+    }
+})
+document.addEventListener('click', event=>{
+    const type=event.target.dataset.type
     if(type=='lock'){
          const node =
          event.target.tagName.toLowerCase()=='i'
