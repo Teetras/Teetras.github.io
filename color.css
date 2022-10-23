@@ -41,7 +41,11 @@ h2{
     background: rgba(0,0,0,0.1);
     cursor: pointer;
 } 
+.mobile-button{
+        
+ display: none;
 
+}
 @media screen and (max-width: 720px){
 
     body{
