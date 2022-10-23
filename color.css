@@ -64,6 +64,7 @@ h2{
     }
     .mobile-button{
         
+        display: block;
         
         height:16.6666666667% ;
 
